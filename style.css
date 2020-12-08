@@ -1,0 +1,2065 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+body{
+    margin: 0;
+    padding:0;
+    font-family:  'Bellota', cursive;
+   
+}
+/*
+section.home
+{
+    background: url(/images/wp3776648.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+/*
+
+
+/* home page */
+/*
+.home
+{
+    margin-top: 0px;
+   
+  
+  background: url(/images/up.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 700px;
+ cursor: pointer;
+
+   
+}*/
+
+.home .con
+{
+    overflow: hidden;
+}
+.home .con .image 
+{
+    background: url(/images/up.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    transition: all .5s ease;
+    cursor: pointer;  
+}
+
+
+.home .display
+{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+.home .con .image:hover
+{
+    transform:  scale(1.1);
+}
+
+.home .display h2
+{
+   color: darkblue;
+    padding-left: 20px;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif; 
+  padding-top: 250px;
+}
+
+.home .display h2 span
+{
+   color: skyblue;
+}
+.display p.fun
+{
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+
+ padding: 10px 0px;
+}
+button
+{
+   margin-left: 80px;
+}
+/*
+.home .btn-warning
+{
+    position: relative;
+    top: -150px;
+}*/
+.btn-warning
+{
+    background: #0d5a88;
+    border: 1px solid #0d5a88;
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-warning:hover
+{
+    background: darkblue;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid  darkblue;
+}
+.home .img-wrapper img
+{
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    padding-top: 60px;
+  
+ 
+}
+
+
+/*
+.home .img-wrapper:hover
+{
+    transform: scale(1.2);
+  
+   cursor: pointer;
+   transition: all 0.5s ease; 
+} */
+/*
+.home .images img:hover, .home .images img:focus
+{
+    transform: scale(1.2);
+   
+    cursor: pointer;
+    
+}*/
+.gift .card-body .card-title h4
+{
+   font-family: Arial, Helvetica, sans-serif; 
+   color: black;
+   text-align: center;
+}
+.btn-danger
+{
+    background: none;
+   border: none;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.btn-danger::after
+{
+    content: '';
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: black;
+    position: relative;
+    top:-5px;
+}
+.btn-danger:hover
+{
+     color: black ;
+    background: transparent !important;
+    border: none ;
+}
+.gift .card
+{
+    border: none;
+  
+    
+}
+
+.gift .card-body
+{
+    background-color: #F7f7f7;
+   
+}
+.gift .card-body p
+{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gift .images img
+{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.gift .images
+{
+    overflow: hidden;
+}
+.gift .images img:hover
+{
+    transform: scale(1.2);
+}
+.New
+{
+   margin: 50px 0px;
+}
+.New .title h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 20px 0px;
+}
+.New .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+}
+.New .collective img
+{
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+
+}
+.New   h3
+{
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.New .collective img:hover
+{
+  transform: scale(1.1);
+ 
+  box-shadow: 0px 5px 4px 2px gray;
+}
+.stars .title h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.875rem;
+    position: relative;
+    top: -80px;
+}
+
+.stars .sub-content h4
+{
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-size: 40px;
+   padding-left: 70px;
+}
+.stars .sub-content p
+{
+   font-family: Arial, Helvetica, sans-serif;
+   color: black;
+   font-size: 20px;
+  
+ 
+}
+ .stars .sub-content .btn-warning
+{
+    position: relative;
+    left: 50px !important;
+   
+top: 20px;
+}
+
+.stars .con
+{
+   
+    overflow: hidden;
+}
+.stars .con .image
+{
+    background: url(/images/black\ panther.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s ease;
+
+  cursor: pointer;
+}
+.stars .con .image:hover
+{
+    transform: scale(1.1);
+}
+.stars .sub-content
+{
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.carco .title h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.875rem;
+   
+}
+.carco .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+}
+.carco   .pic img
+{
+    width: 100%;
+    height: 400px;
+    transition: all;
+    cursor: pointer;
+}
+
+.carco .pic img:hover
+{
+  transform: scale(1.1);
+ 
+  box-shadow: 0px 5px 4px 2px gray;
+}
+.carco   .pic h3
+{
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.carco .carousel-indicaters
+{
+    position: static;
+    padding-top: 30px;
+}
+.carco .carousel-indicaters li
+{
+   display: inline-block;
+   width: 12px;
+   height: 2px;
+   background: black;
+  position: relative;
+  left: 500px;
+  
+}
+.carco  .carousel-control-prev-icon
+{
+
+   background-image: url(/images/computer-icons-arrow-symbol-download-clip-art-png-favpng-muqgTjXi1ExEUP8BTBYJNtg3Y.jpg);
+    
+    padding: 25px;
+    position: relative;
+    right: 150px;
+}
+ .carco .carousel-control-next-icon
+{
+    background-image: url(/images/right\ arrow.png);
+
+    padding: 25px;
+    position: relative;
+   left: 150px;
+}
+
+
+/* end home page */
+
+/* top footer section */
+
+
+
+
+.top-footer .image img
+{
+    width: 100%;
+    cursor: pointer;
+}
+.top-footer .content a:hover
+{
+ text-decoration: none;
+ color: black;
+}
+.top-footer .content p
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.top-footer .content small
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.top-footer .content h3
+{
+ color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+}
+/* end top footer section */
+
+/* bottom footer section */
+.bottom-footer .menu-list li
+{
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+}
+.bottom-footer .menu-list li a
+{
+   padding: 0px 3px;
+   font-size: 13px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: black;
+}
+.bottom-footer .menu-list li a:hover
+{
+    text-decoration: none;
+}
+.bottom-footer .menu-list i
+{
+    margin-left: 5px;
+    font-size: 5px;
+    position: relative;
+    top: -3px;
+}
+.bottom-footer .time
+{
+    position: relative;
+    top: -10px;
+}
+.bottom-footer .menu-list .content p
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+/* end bottom footer section */
+
+/* about section */
+
+.background-color
+{
+    background-color: #fafafa;
+    padding-bottom: 20px;
+}
+.main-about .title h1
+{
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+}
+.main-about .title span
+{
+    color: skyblue;
+}
+.main-about .title p
+{
+    font-size: 18px;
+    color: black;
+   
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+
+.about
+{
+   margin-top: 80px; 
+}
+.about .slide img
+
+{
+    width: 400px;
+    height: 300px;
+    padding: 0px 45px;
+    cursor: pointer;
+   
+  
+}
+.about .slide img:hover
+
+{
+   
+  transform: scale(1.1);
+  box-shadow: 0px 5px 4px 2px gray;
+}
+.about .slide p
+{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+button {
+    margin-left: 80px;
+
+    margin-top: -25px;
+}
+.slick-prev {
+    left: -130px !important;
+}
+.slick-next {
+    
+    
+    right: 10px !important;
+}
+.slick-next::before, .slick-prev::before {
+    font-family: slick;
+    font-size: 70px !important;
+    line-height: 1;
+    opacity: .75;
+    color: black !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: 20px ;
+    cursor: pointer !important;
+    z-index: 50px !important;
+}
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    left: 1050px;
+    
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color:orange;
+    border: none;
+    outline: 0;
+   
+}
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    z-index: 3;
+}
+
+.joey-section .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1000px;
+}
+
+.joey-section .card
+{
+    width: 90% !important;
+}
+.joey-section .image img
+{
+  width: 349px;
+  height: 196px;
+  transition:  .5s ease;
+}
+.joey-section .card
+{
+    border: none;
+}
+
+.joey-section .card-title h6
+{
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+ text-transform: uppercase;
+  word-spacing: 3px;
+}
+.joey-section .card-title span
+{
+    color: gray;
+}
+.joey-section .card-title h3
+{
+    color: black;
+   
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.joey-section .card-title p
+{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 50px;
+}
+
+
+.joey-section .card:hover
+{
+    box-shadow: 0px 5px 4px 2px gray;
+
+}
+
+.joey-section .card .image
+{
+    overflow: hidden;
+}
+
+.joey-section .card .image img:hover
+{
+    transform: scale(1.2);
+}
+.joey-section .card
+{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+/* about section */
+/* contact section */
+.contact
+{
+    margin-top: 100px;
+}
+
+.contact .box-search .in
+{
+    width: 800px;
+    height: 80px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.contact input[type=text]{
+    font-size: 2.25rem;
+}
+
+.contact   .button-g i
+{
+  margin-top: 30px; 
+  font-size: 25px;
+  color: #000000;
+  
+}
+.contact .col-sm-8::after
+{
+    content: '';
+    background: black;
+    width: 810px;
+    height: 2px;
+    display: inline-block;
+    position: relative;
+top: -15px;
+}
+.contact ::placeholder
+{
+    color: black;
+}
+.contact .button-g a
+{
+    width: 3.75rem;
+    height: 3rem;
+    background: blue;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.contact .locate-me 
+{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.contact .locate-me .fa
+{
+    margin-right: 10px;
+}
+
+.contact .locate-me i
+{
+    color: white;
+  
+}
+
+.contact .locate-me a
+{
+    width: 3.75rem;
+    height: 3rem;
+    background: blue;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact .locate-me a:hover
+{
+    text-decoration: none;
+}
+.contact .map iframe
+{
+    width: 100%;
+}
+.contact .footers-Theater .title h3
+{
+ color: black;
+}
+
+.contact .footers-Theater .moves2020 a
+{
+    color: black;
+}
+/* End contact section */
+/* start  Theater section */
+.in-theater .OnT
+{
+    margin-top: 50px;
+}
+.in-theater .titl h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-bottom: 20px;
+}
+.in-theater .millie img
+{
+    width: 100%;
+    height: 400px;
+    padding-bottom: 30px;
+    transition: all 0.5s ease;
+}
+.in-theater .millie img:hover
+{
+   transform: scale(1);
+   box-shadow: 0px 5px 4px 2px gray;
+}
+
+
+.in-theater .avaiable .list-area .sub h3
+{
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.in-theater .avaiable .list-area .sub a:hover
+{
+    text-decoration: none;
+  
+}
+.in-theater .avaiable .list-area .sub h3:hover
+{
+    color: skyblue;
+    transition: 0.2s ease-in-out;
+  
+}
+.in-theater .avaiable .list-area .content p strong
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+.in-theater .avaiable .list-area .content p
+{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+}
+.in-theater .footers-Theater .title h3
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.in-theater .footers-Theater .moves2020 a
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* End Theater section
+/* Artemis section */
+
+.artemis-background
+{
+    background: #000000;
+   padding-bottom: 40px;
+
+
+}
+.fowl .images
+{
+    background: url(/Artemis-images/backgorund\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+}
+.fowl .images a
+{
+    position: relative;
+    top: 250px;
+    left: 680px;
+    font-size: 50px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px 30px;
+    background:  transparent;
+
+}
+.fowl .images a:hover
+{ 
+    color: gray;
+    background: transparent;
+    border: 3px solid gray;
+}
+.summary .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 950px;
+  
+}
+.summary .poc img
+{
+  width: 100%;
+  height: 600px;
+}
+.summary .title h1
+{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #a5e4d4;
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 8px;
+
+
+
+}
+.summary .content p.decs
+{
+    color: #c0d4d6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   padding-bottom: 1em;
+    
+}
+
+.summary  .content p.meta span
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    padding-left: 3px;
+}
+
+.summary  .content p.meta 
+{
+    color: #a5e4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+}
+.slider  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 900px ;
+}
+.slider .carousel-item img
+{
+    height: 500px;
+}
+.slider .carousel-indicators li
+{
+    height: 30px;
+}
+
+.slider .carousel-control-prev-icon i
+{
+    color: black !important;
+    font-size: 30px;
+}
+.slider .carousel-control-next-icon i
+{
+    color: black !important;
+    font-size: 30px;
+}
+.cast .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 980px;
+}
+.cast
+{
+    margin-top: 30px;
+}
+.cast .title h3
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+}
+.cast p.memeber 
+{
+    color: #a5e4d4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    text-align: left;
+     padding-top: 10px;
+}
+.cast .card-list
+{
+    background-color: rgba(255,255,255,0.12);
+}
+.cast .card-listo
+{
+   background: black;
+}
+.pg{
+    margin-top: 100px;
+}
+.pg .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 600px;
+}
+.pg .rats img
+{
+  width: 64px;
+  height: 78px;
+}
+
+.pg .rats p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 20px;
+    text-transform: uppercase;
+ display: inline-block;
+ cursor: pointer;
+}
+.pg .col-sm-12
+{
+    text-align: center;
+}
+.footers-Theater
+{
+    margin-top: 100px;
+}
+.footers-Theater .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 900px;
+}
+.footers-Theater .title h3
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.footers-Theater .moves2020 li
+{
+list-style: none;
+ padding: 5px 5px;
+ text-align: left;
+}
+.footers-Theater .moves2020 ul
+{
+   
+ margin-top: 20px;
+}
+.footers-Theater .moves2020 li a
+{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+
+}
+.footers-Theater .moves2020 li a:hover
+{
+text-decoration: none;
+
+}
+.seach .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 600px;
+}
+.seach
+{
+    margin-top: 50px;
+   
+}
+.seach .reseacrh input
+{
+    width: 80%;
+    height: 40px;
+}
+::placeholder
+{
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.seach .reseacrh::before
+{
+    display: inline-block;
+    content: '';
+    border: 1px solid gray;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.seach .reseacrh::after
+{
+    display: inline-block;
+    content: '';
+    border: 1px solid gray;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+}
+.seach .reseacrh i
+{
+   display: inline-block;
+position: relative;
+right: -2px;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.low .logo img
+{
+   width: 80px;
+}
+
+/* End Artemis section */
+
+/* Sart Mulan section */
+.mulan-background
+{
+background-color:#8B0000;
+}
+.junk .images
+{
+    background: url(/mulan-images/backgound-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+}
+.junk .images a
+{
+    position: relative;
+    top: 250px;
+    left: 680px;
+    font-size: 50px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px 30px;
+    background:  transparent;
+}
+.junk .images a:hover
+{
+    color: gray;
+    background: transparent;
+    border: 3px solid gray;
+}
+.junk .small-content 
+{
+    padding-top: 30px;
+}
+.junk .small-content p
+{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.summary-m .poc img
+{
+    width: 100%;
+    height: 600px;
+}
+.summary-m .title h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 8px;
+
+}
+
+.summary-m .content p.decs
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   padding-bottom: 1em;
+}
+.summary-m .content p.meta
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+}
+.summary-m .content p.meta span
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    padding-left: 3px;
+}
+.movie-set .container
+{
+    margin-top: 40px;
+}
+
+.slider-2 .carousel-item img
+{
+    width: 100%;
+    height: 900px;
+   
+}
+.slider-2 .carousel-indicators li
+{
+    height: 30px;
+}
+.slider-3 .container
+{
+    width: 900px;
+}
+.slider-3 .carousel-item img
+{
+    width: 100%;
+    height: 500px;
+}
+.slider-3 .carousel-indicators li
+{
+    height: 30px;
+}
+.character
+{
+    margin-top: 50px;
+}
+.character .container
+{
+    width: 1140px;
+}
+.character
+.images img
+{
+    width: 160px;
+    height: 175px;
+    border-radius: 10px;
+}
+.character .col-sm-4
+{
+  padding-bottom: 30px;
+}
+.character .name h3
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.character  p.cont
+{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 300px;
+
+}
+
+
+/* End Mulan section */
+
+/* Black widow section */
+.black-background
+{
+    background: black;
+}
+.widow .images 
+{
+ background: url(/black-widow-image/black\ widow\ logo.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 400px;
+}
+.summary .content p.decsy
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.summary .content p.see 
+{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.summary .content p.see span
+{
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 0.87em;
+}
+.summary .bt h1
+{
+    color: #fd0000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 8px;
+    font-size: 1.75em;
+    font-weight: 600;
+
+}
+.cast .titb
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fd0000;
+    font-size: 1.28em;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.cast p.memeberp 
+{
+    line-height: 1.2em;
+    padding: 10px 12px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* end widow section*/
+
+/* soul section */
+.soul-background
+{
+    background: black;
+}
+.soup .images
+{
+    background: url(/soul-images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 580px;
+}
+
+.soup .images a
+{
+    position: relative;
+    top: 250px;
+    left: 680px;
+    font-size: 50px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 20px 30px;
+    background:  transparent;
+}
+
+.soup .images a:hover
+{
+    color: gray;
+    background: transparent;
+    border: 3px solid gray;
+}
+.soul-background .summary .tiple h1
+{
+    color: #038fe4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-bottom: 8px;
+    margin-top: 200px;
+}
+.soul-background .summary p.roman 
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-bottom: 8px;
+}
+.soul-background .summary p.meta
+{
+ color: white;
+}
+.soul-background .cast .title h3
+{
+   color:  #038fe4
+}
+.soul-background .cast p.memeber
+{
+    color: white;
+}
+/* End soul section */
+
+/* Servces section */
+.services .OnT .images
+{
+    background-image: linear-gradient(#1c1d1f,#3a3e41);
+    height: 480px;
+}
+.services .OnT .images iframe
+{
+   padding: 30px 5px;
+}
+.services .avaiable .titl h2
+{
+  padding: 30px 5px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services .avaiable .millie img
+{
+    width:  100%;
+    height: 220px;
+    padding-top: 10px;
+}
+.services .avaiable button
+{
+    margin-top: 30px;
+   margin-left: 3px;
+   width: 100px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.services .avaiable .list-area .sub h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.services .avaiable .list-area  li
+{
+    padding: 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.services .avaiable .list-area  a
+{
+   text-decoration: none;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   padding-left: 20px;
+}
+.services .avaiable .col-sm-2
+{
+padding-bottom: 40px;
+}
+.services .favorites .info h2
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+
+.services .favorites .info p
+{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+.services .favorites .collective img
+{
+    width: 100%;
+    height: 400px;
+    transition: all 0.5s ease;
+}
+.services .favorites .collective img:hover
+{
+   transform: scale(1.1);
+   box-shadow: 0px 5px 4px 2px gray;
+}
+
+
+.services .favorites .col-sm-3
+{
+    margin-bottom: 40px;
+}
+
+.services .favorites .classics .more button
+{
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 150px;
+ height: 50px;
+ font-size: 20px;
+ margin-top: 5px;
+}
+.services .footers-Theater .title h3
+{
+    color: black;
+}
+.services .footers-Theater .moves2020 li a
+{
+    color: black ;
+}
+/* End Services section */
+header{
+position: relative;
+    /*max-width: 1200px;*/
+    width: 100%;
+   /* margin: 20px auto;*/
+padding-top: 10px;
+    padding: 0px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+  
+}
+.logo{
+    color: red;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding:  0 20px;
+   
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+nav{
+    float: right;
+}
+.clearfix{
+    clear:both
+}
+nav ul{
+margin: 0;
+padding:0;
+display:flex;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    display: block;
+    margin:10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black
+}
+
+nav ul li a .active,
+nav ul li a:hover {
+    background: purple;
+    color: red;
+    transition: 0.5s;
+}
+
+
+@media(max-width:600px){
+    .about .slide img
+    
+    {
+        width: 200px;
+        height: 200px;
+        padding: 0px 30px;
+    }
+    .slick-next {
+    
+    
+        left: 800px ;
+    }
+
+}
+
+@media(max-width:1024px)
+{
+    .slick-prev {
+        left: -10px !important;
+    }
+    .slick-next {
+        left: 850px;
+    }
+    .about .slide img
+
+{
+  
+    padding: 0px 50px;
+    cursor: pointer;
+   
+  
+}
+
+}
+
+
+
+
+
+
+@media (max-width:1200px){
+   header {
+      /*margin: 20px;*/
+    }
+
+}
+@media (max-width:768px){
+    .menu-toggle {
+       display: block;
+       width: 40px;
+       height: 40px;
+       margin: 10px;
+       background: white;
+       float: right;
+       cursor: pointer;
+       text-align: center;
+       font-size:30px;
+       color:grey;
+     }
+     .menu-toggle:before { 
+     /*To get the icons go to "font awesome icons 4.7"*/
+    /* for the icons us this bar Unicode: "f0c9 " to display the icon below*/
+      content: '\f0c9';
+      font-family: fontAwesome;
+      line-height: 40px;
+     }
+     .menu-toggle.active:before { 
+        /*To get the icons go to "font awesome icons 4.7"*/
+        /* for the icons us this times Unicode: "f00d " to display the icon below*/
+          content: '\f00d';
+         }
+    
+     nav{
+         display: none;
+     }
+     nav.active{
+        display: block;
+        width: 100%;
+
+    }
+    nav.active ul{
+     display: block;
+    }
+    nav.active li a{
+        margin: 0;
+       }
+       .New .collective img
+{
+    width: 100%;
+    height: 270px;
+    cursor: pointer;
+
+}
+.New   h3
+{
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.New .collective img:hover
+{
+  transform: scale(1.1);
+ 
+  box-shadow: 0px 5px 4px 2px gray;
+}
+       .stars .sub-content h4
+       {
+          font-family: Arial, Helvetica, sans-serif;
+          color: black;
+          font-size: 30px;
+          padding-left: 30px;
+       }
+
+       .stars .sub-content .btn-warning
+       {
+           position: relative;
+           left: 1px !important;
+       }   
+       .carco   .pic img
+{
+    width: 100%;
+    height: 300px;
+    transition: all;
+    cursor: pointer;
+}
+
+.carco .pic img:hover
+{
+  transform: scale(1.1);
+ 
+  box-shadow: 0px 5px 4px 2px gray;
+}
+.carco   .pic h3
+{
+    padding-top: 30px;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+    .carco   .carousel-control-prev-icon
+{
+
+   background-image: url(/images/computer-icons-arrow-symbol-download-clip-art-png-favpng-muqgTjXi1ExEUP8BTBYJNtg3Y.jpg);
+    
+    padding: 25px;
+    position: relative;
+    right: 1px;
+}
+ .carco  .carousel-control-next-icon
+{
+    background-image: url(/images/right\ arrow.png);
+
+    padding: 25px;
+    position: relative;
+   left: 1px;
+}
+.carco .carousel-indicaters li
+{
+   display: inline-block;
+   width: 12px;
+   height: 2px;
+   background: black;
+  position: relative;
+  top: -20px;
+  left: 100px !important;
+  
+}
+.btn-danger
+{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+left: 30px;
+
+}
+.gift .card-title h4
+{
+    text-align: center;
+    color: #000000;
+    font-size: 20px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gift .card-body p
+{
+text-align: center;
+color: black;
+font-size: 15px !important;
+font-family: Arial, Helvetica, sans-serif;
+}
+.gift .col-sm-3
+{
+    margin-bottom: 30px !important;
+}
+.about .slide img
+    
+{
+   
+    padding: 0px 100px;
+}
+.slick-prev {
+    left: -140px !important;
+}
+
+.slick-next {
+        
+        
+   left: 450px !important;
+}
+.fowl .images a
+{
+    position: relative;
+    top: 250px;
+    left: 120px;
+    font-size: 50px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 20px 30px;
+    background:  transparent;
+
+}
+.summary .poc img
+{
+  width: 100%;
+  height: 400px;
+}
+.movie-set iframe{
+    width: 350px;
+    height: 300px;
+}
+.slider-3 .carousels
+{
+   width: 370px;
+}
+.widowtr iframe
+{
+    width: 370px;
+    height: 300px;
+}
+.soul-background .summary .tiple h1
+{
+    color: #038fe4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    font-weight: 600;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+.services .OnT .images iframe
+{
+    width: 370px;
+    height: 300px;
+
+ padding: 30px 5px;
+}
+.services .OnT .images
+{
+    background-image: linear-gradient(#1c1d1f,#3a3e41);
+    height: 330px;
+}
+.mulan-background   .character p.cont {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 145px;
+   
+    font-size: 14px;
+}
+.mulan-background    .character .images img{
+    width: 80px;
+    height: 175px;
+    border-radius: 10px;
+ }
+ .contact .col-sm-8::after
+{
+    content: '';
+    background: black;
+    width: 400px;
+    height: 2px;
+    display: inline-block;
+    position: relative;
+top: -15px;
+}
+.contact .map iframe{
+    margin-top: 30px;
+    height: 300px;
+}
+.in-theater .OnT iframe
+{
+  width: 430px;
+  height: 300px;
+}
+.in-theater .millie img
+{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 30px;
+    transition: all 0.5s ease;
+}
+}
+
+ @media(max-width:414px){
+    .about .slide p
+    {
+        padding-top: 20px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    .about button {
+        margin-left: 80px;
+    
+        margin-top: -80px;
+    }
+    .slick-prev {
+        left: -80px !important;
+    }
+    .slick-next {
+        
+        
+        left: 200px !important;
+    }
+    .about .slide img
+    
+    {
+        width: 200px;
+        height: 200px;
+        padding: 0px 50px;
+    }
+   
+    
+   
+}
+
+ @media(max-width:812px){
+    .gift .card-title h4
+    {
+        text-align: center;
+        color: black;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .gift .card-body p
+{
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   .gift .btn-danger
+    {
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+left:-100px;
+
+    }
+    .gift .images img
+    {
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+    .New .collective img
+    {
+        width: 100%;
+        height: 270px;
+        cursor: pointer;
+    
+    }
+    .New   h3
+    {
+        padding-top: 30px;
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    
+    .New .collective img:hover
+    {
+      transform: scale(1.1);
+     
+      box-shadow: 0px 5px 4px 2px gray;
+    }
+           .stars .sub-content h4
+           {
+              font-family: Arial, Helvetica, sans-serif;
+              color: black;
+              font-size: 30px;
+              padding-left: 30px;
+           }
+    
+          /* .stars .sub-content .btn-warning {
+            position: relative;
+            left: -50px !important;
+            top: 1px;
+        } */
+           .carco   .pic img
+    {
+        width: 100%;
+        height: 300px;
+        transition: all;
+        cursor: pointer;
+    }
+    
+    .carco .pic img:hover
+    {
+      transform: scale(1.1);
+     
+      box-shadow: 0px 5px 4px 2px gray;
+    }
+    .carco   .pic h3
+    {
+        padding-top: 30px;
+        color: black;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+      .carco     .carousel-control-prev-icon
+    {
+    
+       background-image: url(/images/computer-icons-arrow-symbol-download-clip-art-png-favpng-muqgTjXi1ExEUP8BTBYJNtg3Y.jpg);
+        
+        padding: 25px;
+        position: relative;
+        right: 1px;
+    }
+    .carco   .carousel-control-next-icon
+    {
+        background-image: url(/images/right\ arrow.png);
+    
+        padding: 25px;
+        position: relative;
+       left: 1px;
+    }
+    .carco .carousel-indicaters li
+    {
+       display: inline-block;
+       width: 12px;
+       height: 2px;
+       background: black;
+      position: relative;
+      top: -20px;
+      left: 280px ;
+      
+    }
+    .top-footer .content p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    .top-footer .content h3 {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .bottom-footer .menu-list li a {
+        padding: 0px 3px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+    }
+    .bottom-footer .menu-list .content p {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+    }
+    .stars .sub-content .btn-warning {
+        position: relative;
+        left: -50px !important;
+        top: 10px;
+    }
+    .stars .sub-content h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 20px;
+        
+    }
+   
+    .main-about .title p {
+        font-size: 15px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-about .title h1 {
+        font-size: 30px;
+        color: darkblue;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 40px 2px;
+    }
+    .joey-section .image img
+{
+  width: 100%;
+  height: 196px;
+}
+
+.joey-section .card-title h6
+{
+    padding: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+ text-transform: uppercase;
+  word-spacing: 3px;
+}
+.joey-section .card-title span
+{
+    color: gray;
+}
+.joey-section .card-title h3
+{
+    color: black;
+   
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.joey-section .card-title p
+{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+
+.about .slide img
+
+{
+    width: 200px;
+    height: 200px;
+    padding: 0px 45px;
+    cursor: pointer;
+   
+  
+}
+
+
+.about .slide p
+{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.widowtr iframe
+{
+    width: 370px;
+    height: 300px;
+}
+.mulan-background   .character p.cont {
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 145px;
+   
+    font-size: 14px;
+}
+.mulan-background    .character .images img{
+    width: 80px;
+    height: 175px;
+    border-radius: 10px;
+ }
+
+ }
+
+ @media(max-width:1199px){
+    .mulan-background   .character p.cont {
+        color: white;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        width: 175px;
+       
+        font-size: 14px;
+    }
+    .mulan-background    .character .images img{
+        width: 80px;
+        height: 175px;
+        border-radius: 10px;
+     }
+ }
